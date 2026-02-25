@@ -2681,7 +2681,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
 					(page "11")
 				)
@@ -2733,7 +2733,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
 					(page "9")
 				)
