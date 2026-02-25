@@ -1342,7 +1342,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "4")
 				)
@@ -1434,7 +1434,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "2")
 				)
@@ -1506,7 +1506,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "6")
 				)
@@ -1578,7 +1578,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "11")
 				)
@@ -1680,7 +1680,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "3")
 				)
@@ -1782,7 +1782,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "10")
 				)
