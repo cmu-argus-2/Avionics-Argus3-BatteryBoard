@@ -475,7 +475,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Avionics-BatteryBoard.kicad_pro",
+    "filename": "Avionics-Argus3-BatteryBoard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -774,7 +774,7 @@
     ],
     [
       "e0cf694e-e610-403b-8199-ed27af9d964d",
-      "Interfaces"
+      "MCU_Subsystem"
     ],
     [
       "929ad239-5e24-4db1-ba18-c148cf561726",

@@ -4984,7 +4984,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae"
 					(page "5")
 				)

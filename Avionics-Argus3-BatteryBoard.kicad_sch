@@ -330,16 +330,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "EXTERNAL INTERFACES"
-		(exclude_from_sim no)
-		(at 216.662 106.68 90)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "97acef82-6d16-49dd-aca0-198f2467c104")
-	)
 	(junction
 		(at 58.42 99.06)
 		(diameter 0)
@@ -351,6 +341,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d12eaac-f79e-4151-aeee-7b9afd641489")
+	)
+	(junction
+		(at 114.3 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22351209-9caf-4870-b472-4975e2d4176b")
 	)
 	(junction
 		(at 62.23 93.98)
@@ -378,13 +374,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 99.06) (xy 58.42 119.38)
+			(xy 58.42 99.06) (xy 58.42 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a26775a-9e1e-47cd-a43b-a9edfd5a4d0e")
+	)
+	(wire
+		(pts
+			(xy 157.48 116.84) (xy 185.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a33199b-689e-423c-a6f3-0618da20a2a0")
 	)
 	(wire
 		(pts
@@ -408,6 +414,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 111.76) (xy 185.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179ebc75-b28d-4e31-b981-6f100d3fccd9")
+	)
+	(wire
+		(pts
 			(xy 66.04 82.55) (xy 119.38 82.55)
 		)
 		(stroke
@@ -428,7 +444,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 114.3) (xy 119.38 114.3)
+			(xy 62.23 116.84) (xy 119.38 116.84)
 		)
 		(stroke
 			(width 0)
@@ -448,6 +464,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 107.95) (xy 185.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c526b62-911f-426e-9697-e4897a66efb0")
+	)
+	(wire
+		(pts
 			(xy 106.68 99.06) (xy 119.38 99.06)
 		)
 		(stroke
@@ -455,6 +481,16 @@
 			(type default)
 		)
 		(uuid "2dd3ff31-f1c1-4a17-ac67-f32d310f95e1")
+	)
+	(wire
+		(pts
+			(xy 158.75 120.65) (xy 185.42 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307b3bb2-a6e8-4bf2-93ba-a95b821012b8")
 	)
 	(wire
 		(pts
@@ -478,6 +514,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 106.68) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4a895e-3de2-4272-8ae6-e1b0ef449095")
+	)
+	(wire
+		(pts
+			(xy 184.15 106.68) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9fddd2-77b2-4d52-8b85-76eb5c494209")
+	)
+	(wire
+		(pts
 			(xy 255.27 147.32) (xy 255.27 153.67)
 		)
 		(stroke
@@ -495,16 +551,6 @@
 			(type default)
 		)
 		(uuid "494b5c5e-1f3a-439a-8017-14b8efb90645")
-	)
-	(wire
-		(pts
-			(xy 157.48 109.22) (xy 185.42 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5245e986-b349-4d4f-a7b8-0892b9f34ac8")
 	)
 	(wire
 		(pts
@@ -558,13 +604,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 114.3) (xy 185.42 114.3)
+			(xy 184.15 107.95) (xy 184.15 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "731707fc-898e-4d20-a130-9843b053822f")
+		(uuid "79964bed-e74a-4a51-aca8-4bb541b8ff10")
 	)
 	(wire
 		(pts
@@ -578,7 +624,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 109.22) (xy 66.04 109.22)
+			(xy 119.38 111.76) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -628,7 +674,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 88.9) (xy 66.04 109.22)
+			(xy 66.04 88.9) (xy 66.04 111.76)
 		)
 		(stroke
 			(width 0)
@@ -648,7 +694,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 119.38) (xy 185.42 119.38)
+			(xy 157.48 121.92) (xy 158.75 121.92)
 		)
 		(stroke
 			(width 0)
@@ -688,7 +734,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 93.98) (xy 62.23 114.3)
+			(xy 62.23 93.98) (xy 62.23 116.84)
 		)
 		(stroke
 			(width 0)
@@ -728,6 +774,26 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 121.92) (xy 158.75 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f3aebc-1956-4a7a-9f12-a26c67fff46b")
+	)
+	(wire
+		(pts
+			(xy 114.3 111.76) (xy 66.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75b4e2d-93ec-4cef-9073-d7f197b2252d")
+	)
+	(wire
+		(pts
 			(xy 157.48 93.98) (xy 158.75 93.98)
 		)
 		(stroke
@@ -738,7 +804,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 119.38) (xy 58.42 119.38)
+			(xy 119.38 121.92) (xy 58.42 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1342,7 +1408,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "4")
 				)
@@ -1434,7 +1500,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "2")
 				)
@@ -1506,7 +1572,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "6")
 				)
@@ -1578,7 +1644,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "11")
 				)
@@ -1586,7 +1652,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 106.68)
+		(at 119.38 109.22)
 		(size 38.1 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1602,7 +1668,7 @@
 		)
 		(uuid "ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae")
 		(property "Sheetname" "Battery Monitor"
-			(at 119.38 105.9684 0)
+			(at 119.38 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1677,7 @@
 			)
 		)
 		(property "Sheetfile" "BatteryMonitor.kicad_sch"
-			(at 119.38 122.5046 0)
+			(at 119.38 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1686,7 @@
 			)
 		)
 		(pin "SDA_FUEL" bidirectional
-			(at 157.48 114.3 0)
+			(at 157.48 116.84 0)
 			(uuid "357e2f53-de4f-4771-a340-c74a6ba79809")
 			(effects
 				(font
@@ -1630,7 +1696,7 @@
 			)
 		)
 		(pin "SCL_FUEL" bidirectional
-			(at 157.48 119.38 0)
+			(at 157.48 121.92 0)
 			(uuid "6272c2e1-8cc8-4014-ad95-3b5210efee1a")
 			(effects
 				(font
@@ -1640,7 +1706,7 @@
 			)
 		)
 		(pin "ALERT" output
-			(at 157.48 109.22 0)
+			(at 157.48 111.76 0)
 			(uuid "9edb2366-1ca1-4bd5-b04e-64f70165172b")
 			(effects
 				(font
@@ -1650,7 +1716,7 @@
 			)
 		)
 		(pin "BATT_M" bidirectional
-			(at 119.38 114.3 180)
+			(at 119.38 116.84 180)
 			(uuid "dda6c1b2-c7ea-4fa8-a60c-d3ca023225f2")
 			(effects
 				(font
@@ -1660,7 +1726,7 @@
 			)
 		)
 		(pin "BATT_N" bidirectional
-			(at 119.38 119.38 180)
+			(at 119.38 121.92 180)
 			(uuid "37e2f372-d761-45dd-b462-510d60c64007")
 			(effects
 				(font
@@ -1670,7 +1736,7 @@
 			)
 		)
 		(pin "BATT_P" bidirectional
-			(at 119.38 109.22 180)
+			(at 119.38 111.76 180)
 			(uuid "a3a17853-3996-4ce3-822d-1b98202d254d")
 			(effects
 				(font
@@ -1680,7 +1746,7 @@
 			)
 		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "3")
 				)
@@ -1703,7 +1769,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e0cf694e-e610-403b-8199-ed27af9d964d")
-		(property "Sheetname" "Interfaces"
+		(property "Sheetname" "MCU_Subsystem"
 			(at 185.42 90.2204 0)
 			(effects
 				(font
@@ -1722,7 +1788,7 @@
 			)
 		)
 		(pin "SDA_BUS" bidirectional
-			(at 185.42 114.3 180)
+			(at 185.42 116.84 180)
 			(uuid "82c1e11f-646f-4cdd-9fa2-8cbfe37265d4")
 			(effects
 				(font
@@ -1732,7 +1798,7 @@
 			)
 		)
 		(pin "SCL_BUS" bidirectional
-			(at 185.42 119.38 180)
+			(at 185.42 120.65 180)
 			(uuid "93c5d24d-bd27-4989-8720-1464c64c865d")
 			(effects
 				(font
@@ -1742,7 +1808,7 @@
 			)
 		)
 		(pin "ALERT" input
-			(at 185.42 109.22 180)
+			(at 185.42 111.76 180)
 			(uuid "ac534290-4223-4717-9239-95fbeb6b4934")
 			(effects
 				(font
@@ -1781,8 +1847,38 @@
 				(justify left)
 			)
 		)
+		(pin "CAN_L" bidirectional
+			(at 213.36 109.22 0)
+			(uuid "33ac359a-3978-4cda-9057-8aeb6aa8ed5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT_P" input
+			(at 185.42 107.95 180)
+			(uuid "ff9fa7e4-cb58-44e7-8603-9283d2fd79c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 213.36 105.41 0)
+			(uuid "be09b07f-1952-4793-8529-354eaf752586")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "Avionics-BatteryBoard"
+			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "10")
 				)
