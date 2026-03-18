@@ -434,7 +434,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 99.06) (xy 185.42 99.06)
+			(xy 179.07 96.52) (xy 185.42 96.52)
 		)
 		(stroke
 			(width 0)
@@ -454,7 +454,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 172.72 72.39)
+			(xy 177.8 99.06) (xy 177.8 72.39)
 		)
 		(stroke
 			(width 0)
@@ -544,6 +544,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 102.87) (xy 173.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c19e46-c2cf-45c4-bb58-4ab5919ac5c9")
+	)
+	(wire
+		(pts
 			(xy 55.88 93.98) (xy 62.23 93.98)
 		)
 		(stroke
@@ -554,7 +564,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 67.31) (xy 176.53 67.31)
+			(xy 173.99 86.36) (xy 157.48 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bbba64-5c46-41fc-aea9-a2bdf0fc1815")
+	)
+	(wire
+		(pts
+			(xy 157.48 67.31) (xy 179.07 67.31)
 		)
 		(stroke
 			(width 0)
@@ -664,7 +684,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 104.14) (xy 172.72 104.14)
+			(xy 185.42 102.87) (xy 173.99 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24d9307-7c58-4aa1-a424-983ae66c7953")
+	)
+	(wire
+		(pts
+			(xy 185.42 99.06) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -684,7 +714,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 72.39) (xy 172.72 72.39)
+			(xy 157.48 72.39) (xy 177.8 72.39)
 		)
 		(stroke
 			(width 0)
@@ -754,7 +784,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 67.31) (xy 176.53 99.06)
+			(xy 179.07 67.31) (xy 179.07 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1339,7 +1369,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2701f768-968e-41c8-b7b5-2417f566d99b")
-		(property "Sheetname" "Battery Bus Protection"
+		(property "Sheetname" "Battery Bus Protection (page 4)"
 			(at 119.38 79.2984 0)
 			(effects
 				(font
@@ -1405,6 +1435,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "MCU_CHG_DISABLE" input
+			(at 157.48 86.36 0)
+			(uuid "556bce7f-028e-4d9e-9009-d46becc9bcfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1828,7 +1868,7 @@
 			)
 		)
 		(pin "HEATER1_ON" output
-			(at 185.42 104.14 180)
+			(at 185.42 99.06 180)
 			(uuid "864fca4d-3411-4252-ac6a-f1cf84f040e0")
 			(effects
 				(font
@@ -1838,7 +1878,7 @@
 			)
 		)
 		(pin "HEATER0_ON" output
-			(at 185.42 99.06 180)
+			(at 185.42 96.52 180)
 			(uuid "502ea970-161d-48ca-b07c-51573ebca8cd")
 			(effects
 				(font
@@ -1875,6 +1915,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "MCU_CHG_DISABLE" output
+			(at 185.42 102.87 180)
+			(uuid "d6c1e14c-db1d-4452-b07f-22898fa527bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

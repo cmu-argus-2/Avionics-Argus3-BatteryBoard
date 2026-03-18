@@ -1335,18 +1335,6 @@
 		(uuid 0e6b02ff-763e-4db6-be55-0614700b9127)
 	)
 	(rectangle
-		(start 193.802 85.852)
-		(end 206.248 117.348)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ab7c06ca-5503-486d-9127-429d9b37a13e)
-	)
-	(rectangle
 		(start 160.782 85.852)
 		(end 173.228 117.348)
 		(stroke
@@ -1393,12 +1381,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea17092c-cac0-4dd7-9799-3dddcf56a75d")
-	)
-	(junction
-		(at 184.15 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3a9d539-9fbd-4182-9635-fe0483283c28")
 	)
 	(wire
 		(pts
@@ -1469,16 +1451,6 @@
 			(type default)
 		)
 		(uuid "4824a952-3fce-49fb-801b-bcc330818ec1")
-	)
-	(wire
-		(pts
-			(xy 200.66 114.3) (xy 200.66 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "502fe0f5-da1c-4e76-82d6-2af89d336f5d")
 	)
 	(wire
 		(pts
@@ -1592,16 +1564,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 99.06) (xy 200.66 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a516cd78-0266-427e-ac7d-061f97853442")
-	)
-	(wire
-		(pts
 			(xy 184.15 83.82) (xy 184.15 88.9)
 		)
 		(stroke
@@ -1609,16 +1571,6 @@
 			(type default)
 		)
 		(uuid "ab52d108-4d56-4acb-829a-f659b2f85f43")
-	)
-	(wire
-		(pts
-			(xy 200.66 83.82) (xy 200.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aef79cf5-71ce-4528-9a2a-93500606bbc0")
 	)
 	(wire
 		(pts
@@ -1642,16 +1594,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 83.82) (xy 184.15 83.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d34e60aa-496e-484c-820b-96e935a59bc9")
-	)
-	(wire
-		(pts
 			(xy 167.64 83.82) (xy 167.64 88.9)
 		)
 		(stroke
@@ -1669,16 +1611,6 @@
 			(type default)
 		)
 		(uuid "dc864931-60aa-48de-b541-14a16c71a8a0")
-	)
-	(wire
-		(pts
-			(xy 200.66 109.22) (xy 200.66 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e00381b8-5266-4f43-b2b5-b67f8747b827")
 	)
 	(wire
 		(pts
@@ -1770,88 +1702,6 @@
 			(justify right)
 		)
 		(uuid "2030806a-ac5e-4f1b-92e5-f9819f6e04aa")
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 200.66 91.44 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f56aaf6-ec27-4b2d-a768-689ba162b4ef")
-		(property "Reference" "R34"
-			(at 199.39 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10R"
-			(at 199.39 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 200.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 200.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "3W"
-			(at 203.454 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "80f7644e-35b4-43ce-b411-f044519a7062")
-		)
-		(pin "1"
-			(uuid "23a7110b-caaf-4073-876e-459f46c5cc45")
-		)
-		(instances
-			(project "BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/95738717-905b-497b-9774-63ac446a9107"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/efd94f27-a1dd-4af9-8d35-809f16432fd2"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -2337,87 +2187,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 200.66 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cbbd9b4-940a-4421-a8af-0233cc94381c")
-		(property "Reference" "R35"
-			(at 199.39 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R"
-			(at 199.39 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 200.66 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 200.66 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "3W"
-			(at 203.454 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8de9ea99-171d-4c5f-9779-fc37637e77c1")
-		)
-		(pin "1"
-			(uuid "dcc88469-1fb4-45c5-9b60-d588fde2e482")
-		)
-		(instances
-			(project "BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/95738717-905b-497b-9774-63ac446a9107"
-					(reference "R22")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/efd94f27-a1dd-4af9-8d35-809f16432fd2"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 167.64 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2573,75 +2342,6 @@
 				)
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/efd94f27-a1dd-4af9-8d35-809f16432fd2"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 200.66 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9896da4c-06ec-46fa-b8aa-388325cfa442")
-		(property "Reference" "#PWR023"
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SYSTEM_VSS"
-			(at 200.66 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "691ef287-ec17-4e1d-9b9f-6d12dafddebf")
-		)
-		(instances
-			(project "Avionics-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/95738717-905b-497b-9774-63ac446a9107"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/efd94f27-a1dd-4af9-8d35-809f16432fd2"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3041,87 +2741,6 @@
 				)
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/efd94f27-a1dd-4af9-8d35-809f16432fd2"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 200.66 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c27de6b9-51f9-4fb4-9184-fc2dbbb552ac")
-		(property "Reference" "R36"
-			(at 199.39 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R"
-			(at 199.39 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 200.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 200.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "3W"
-			(at 203.454 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3d76e6c8-b3dd-417b-a7f5-cebfda5227af")
-		)
-		(pin "1"
-			(uuid "20866476-6d1a-4cfb-af3d-29ecfce884b7")
-		)
-		(instances
-			(project "BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/95738717-905b-497b-9774-63ac446a9107"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/efd94f27-a1dd-4af9-8d35-809f16432fd2"
-					(reference "R36")
 					(unit 1)
 				)
 			)

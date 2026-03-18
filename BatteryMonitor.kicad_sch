@@ -1592,16 +1592,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 143.51) (xy 132.08 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "222f931d-1ce5-447e-b641-e26d238040bb")
-	)
-	(wire
-		(pts
 			(xy 203.2 82.55) (xy 215.9 82.55)
 		)
 		(stroke
@@ -2039,16 +2029,6 @@
 			(type default)
 		)
 		(uuid "a5270d39-9813-429e-a9ba-a555f158bb3d")
-	)
-	(wire
-		(pts
-			(xy 144.78 143.51) (xy 144.78 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a925bdfa-30eb-4b0d-be6f-e5b8c842e3aa")
 	)
 	(wire
 		(pts
@@ -3032,76 +3012,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 144.78 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35e67a9f-8a1e-4303-b4b6-bae133073756")
-		(property "Reference" "TH6"
-			(at 147.32 138.7474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k 3435k"
-			(at 147.32 141.2874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 144.78 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 144.78 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68816f10-a74b-4c57-8a45-9467a9d37520")
-		)
-		(pin "1"
-			(uuid "27630de5-5260-4491-a677-c47756889b53")
-		)
-		(instances
-			(project "BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae"
-					(reference "TH6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 67.31 109.22 0)
 		(unit 1)
@@ -3168,7 +3078,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 146.05 0)
+		(at 144.78 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3176,7 +3086,7 @@
 		(dnp no)
 		(uuid "3bc8a775-d3bb-4a8d-a90d-ef92384f4e44")
 		(property "Reference" "#PWR052"
-			(at 144.78 152.4 0)
+			(at 144.78 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3095,7 @@
 			)
 		)
 		(property "Value" "SYSTEM_VSS"
-			(at 144.78 149.86 0)
+			(at 144.78 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 146.05 0)
+			(at 144.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 146.05 0)
+			(at 144.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 146.05 0)
+			(at 144.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,76 +3497,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 132.08 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ea8930f-96da-451d-8a05-d5c9ccea4e49")
-		(property "Reference" "TH3"
-			(at 129.54 138.7474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k 3435k"
-			(at 129.54 141.2874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 132.08 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5be3a6f8-5441-428c-8e3c-ddfe25482132")
-		)
-		(pin "1"
-			(uuid "2b8773fa-3d0d-4921-96e1-165eff756a3d")
-		)
-		(instances
-			(project "BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae"
-					(reference "TH3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 46.99 88.9 90)
 		(unit 1)
@@ -3891,7 +3731,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 146.05 0)
+		(at 132.08 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3899,7 +3739,7 @@
 		(dnp no)
 		(uuid "84e4dc0c-54ac-4bcf-b72d-69a1ec5b9065")
 		(property "Reference" "#PWR051"
-			(at 132.08 152.4 0)
+			(at 132.08 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3748,7 @@
 			)
 		)
 		(property "Value" "SYSTEM_VSS"
-			(at 132.08 149.86 0)
+			(at 132.08 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 146.05 0)
+			(at 132.08 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 146.05 0)
+			(at 132.08 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 146.05 0)
+			(at 132.08 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
