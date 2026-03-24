@@ -5,4 +5,5 @@
   (lib (name "Argus-Misc")(type "KiCad")(uri "${KIPRJMOD}/../KiCad-Libraries/Argus-Miscellaneous.kicad_sym")(options "")(descr "")(disabled)(hidden))
   (lib (name "Argus-Passives")(type "KiCad")(uri "${KIPRJMOD}/../KiCad-Libraries/Argus-Passives.kicad_sym")(options "")(descr "")(disabled)(hidden))
   (lib (name "STM32U375")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/STM32U375CET6.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC32AD")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/SN74LVC32AD.kicad_sym")(options "")(descr ""))
 )

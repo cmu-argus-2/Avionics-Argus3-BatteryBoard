@@ -4329,16 +4329,6 @@
 		)
 		(uuid "5cf3a521-199b-44cf-9d32-76a02c43a3a9")
 	)
-	(text "Deployment Switch\n(needs to be updated with mainboard)"
-		(exclude_from_sim no)
-		(at 35.814 116.586 0)
-		(effects
-			(font
-				(size 1.4986 1.4986)
-			)
-		)
-		(uuid "a4fe0b08-286d-4d92-8847-33cfedb2087a")
-	)
 	(text "ECS-MPI4040R4-6R8-R"
 		(exclude_from_sim no)
 		(at 74.93 151.13 0)
@@ -4595,13 +4585,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 125.73) (xy 26.67 125.73)
+			(xy 148.59 139.7) (xy 152.4 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0220790c-dd7c-4fc1-a29c-bb3cb99d631b")
+		(uuid "00e62a80-6d75-440a-b8ad-6cd53348b776")
 	)
 	(wire
 		(pts
@@ -5225,16 +5215,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 130.81) (xy 35.56 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6295112d-868b-4f7c-a0d5-92da2af9b178")
-	)
-	(wire
-		(pts
 			(xy 111.76 105.41) (xy 113.03 105.41)
 		)
 		(stroke
@@ -5302,16 +5282,6 @@
 			(type default)
 		)
 		(uuid "6f0eb21a-5da1-4d1f-a117-04b623898d8b")
-	)
-	(wire
-		(pts
-			(xy 33.02 135.89) (xy 33.02 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7205877f-523d-41b5-9328-1717e2eaf456")
 	)
 	(wire
 		(pts
@@ -5645,16 +5615,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 135.89) (xy 48.26 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6e717c-54dc-4f17-9c5d-c9da08dafe28")
-	)
-	(wire
-		(pts
 			(xy 212.09 111.76) (xy 214.63 111.76)
 		)
 		(stroke
@@ -5752,16 +5712,6 @@
 			(type default)
 		)
 		(uuid "b39f8230-ad45-4592-9002-110d760bc16e")
-	)
-	(wire
-		(pts
-			(xy 22.86 135.89) (xy 33.02 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4644815-014e-40dc-a033-24cff0f3a02f")
 	)
 	(wire
 		(pts
@@ -5955,6 +5905,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 124.46) (xy 152.4 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd34a6d4-40e0-46cf-855e-b0642e9e626c")
+	)
+	(wire
+		(pts
 			(xy 128.27 116.84) (xy 132.08 116.84)
 		)
 		(stroke
@@ -5982,16 +5942,6 @@
 			(type default)
 		)
 		(uuid "cff3025e-6799-462d-b073-24d0433a4867")
-	)
-	(wire
-		(pts
-			(xy 48.26 134.62) (xy 48.26 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d21da110-9e12-45b5-b023-53a3d484b4be")
 	)
 	(wire
 		(pts
@@ -6102,16 +6052,6 @@
 			(type solid)
 		)
 		(uuid "ebbd199a-f6dd-4af3-afc6-31fbe11fdc9f")
-	)
-	(wire
-		(pts
-			(xy 26.67 125.73) (xy 26.67 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee2dbebe-892a-4418-b1c1-94bfc28cb55c")
 	)
 	(wire
 		(pts
@@ -6294,6 +6234,17 @@
 		)
 		(uuid "0853c3eb-3521-4562-8ec5-4ec42982a79f")
 	)
+	(hierarchical_label "MCU_ON"
+		(shape output)
+		(at 148.59 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a50fd18-2d4f-404e-9e7d-e3b03a8cdc4c")
+	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
 		(at 248.92 106.68 0)
@@ -6384,7 +6335,7 @@
 	)
 	(hierarchical_label "BATT_P"
 		(shape input)
-		(at 22.86 135.89 180)
+		(at 22.86 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6727,7 +6678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V_MCU"
+		(property "Value" "+3.3V"
 			(at 151.13 92.964 0)
 			(effects
 				(font
@@ -6853,71 +6804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 26.67 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16e3b5d2-65ee-4d42-b030-bcecf24d5a6a")
-		(property "Reference" "#PWR016"
-			(at 26.67 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 23.114 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd3e3f09-b055-432e-87c8-299d135b99b1")
-		)
-		(instances
-			(project "Avionics-Argus3-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-batteries-eagle-import:L-ECS-MPI4040")
 		(at 91.44 156.21 90)
 		(unit 1)
@@ -7020,71 +6906,6 @@
 			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 48.26 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b05e26a-4e4d-4031-9b48-688c42b494da")
-		(property "Reference" "#PWR010"
-			(at 48.26 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUSP"
-			(at 48.26 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 48.26 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4ebf973-4a86-437a-9621-f2bcd34e8e1a")
-		)
-		(instances
-			(project "Avionics-Argus3-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8465,71 +8286,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 22.86 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d9f0823-4640-4df2-aaa4-423d713b8c5d")
-		(property "Reference" "#PWR021"
-			(at 22.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUSP"
-			(at 22.86 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d8764e8-688b-473d-bb58-485a30d9707b")
-		)
-		(instances
-			(project "Avionics-Argus3-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 104.14 166.37 0)
 		(mirror y)
@@ -9614,7 +9370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V_MCU"
+		(property "Value" "+3.3V"
 			(at 132.08 113.284 0)
 			(effects
 				(font
@@ -9656,87 +9412,6 @@
 			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 35.56 125.73 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a35a9b1a-480a-423d-9183-e616eb10bd0a")
-		(property "Reference" "J1"
-			(at 32.766 120.904 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "205338-0002"
-			(at 34.29 122.936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Pico-Lock_205338-0002_1x02-1MP_P2.00mm_Horizontal"
-			(at 35.56 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C17575002"
-			(at 35.56 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12772a13-148e-43b0-8019-758f5bbc55ea")
-		)
-		(pin "2"
-			(uuid "6c216856-9852-4855-ad67-9e79515d2b02")
-		)
-		(pin "MP"
-			(uuid "d390101e-1f4f-48bf-8d3b-625f1db3284f")
-		)
-		(instances
-			(project "Avionics-Argus3-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
-					(reference "J1")
 					(unit 1)
 				)
 			)
