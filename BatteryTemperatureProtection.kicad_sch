@@ -2250,6 +2250,12 @@
 		)
 	)
 	(junction
+		(at 80.01 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b2b53a2-1dd2-43fc-907a-3fc5fd2ae7cc")
+	)
+	(junction
 		(at 156.21 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2260,6 +2266,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69c7368d-a070-4af7-b205-cdddd54e4aa8")
+	)
+	(junction
+		(at 80.01 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fffa2cd-4238-4255-89a7-41a875cc9702")
 	)
 	(junction
 		(at 134.62 96.52)
@@ -2274,7 +2286,7 @@
 		(uuid "a4ed8aa3-3e14-4353-a3fa-986e85587de4")
 	)
 	(junction
-		(at 73.66 160.02)
+		(at 73.66 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b76dcda1-defc-499c-b0a9-6f6df9987897")
@@ -2284,6 +2296,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e315a583-a479-4833-896b-29b5378f4279")
+	)
+	(wire
+		(pts
+			(xy 80.01 175.26) (xy 80.01 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095b6b68-b68c-4e25-9165-8bbf84b49715")
 	)
 	(wire
 		(pts
@@ -2347,6 +2369,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 168.91) (xy 86.36 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d753171-b77a-470c-8e5a-05dbd578ff4e")
+	)
+	(wire
+		(pts
 			(xy 40.64 96.52) (xy 123.19 96.52)
 		)
 		(stroke
@@ -2377,13 +2409,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 160.02) (xy 92.71 189.23)
+			(xy 92.71 156.21) (xy 92.71 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f292d72-9713-49ee-9c18-0e6cec842f28")
+	)
+	(wire
+		(pts
+			(xy 80.01 167.64) (xy 80.01 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f440d4c-d576-475f-8632-c64e410fd5df")
 	)
 	(wire
 		(pts
@@ -2467,7 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 160.02) (xy 92.71 160.02)
+			(xy 73.66 156.21) (xy 92.71 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2497,7 +2539,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 172.72) (xy 68.58 172.72)
+			(xy 63.5 168.91) (xy 68.58 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2557,6 +2599,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 181.61) (xy 86.36 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd76e69-af2e-4888-8ab3-09300d5fc6a1")
+	)
+	(wire
+		(pts
 			(xy 142.24 143.51) (xy 119.38 143.51)
 		)
 		(stroke
@@ -2604,6 +2656,16 @@
 			(type default)
 		)
 		(uuid "aee8b9f4-cb2a-45b3-a2cf-378ba3ae848d")
+	)
+	(wire
+		(pts
+			(xy 80.01 180.34) (xy 80.01 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b463e5b0-95e9-47c3-9bb3-52a04d027c01")
 	)
 	(wire
 		(pts
@@ -2677,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 160.02) (xy 69.85 160.02)
+			(xy 73.66 156.21) (xy 69.85 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 160.02) (xy 73.66 165.1)
+			(xy 73.66 156.21) (xy 73.66 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2734,6 +2796,16 @@
 			(type solid)
 		)
 		(uuid "e4961ef3-f1f0-436d-935b-be5d1b2b35fa")
+	)
+	(wire
+		(pts
+			(xy 80.01 162.56) (xy 80.01 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21cfdc2-b79c-46e2-aeac-e6f667787854")
 	)
 	(wire
 		(pts
@@ -2757,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 181.61) (xy 86.36 181.61)
+			(xy 78.74 181.61) (xy 80.01 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2777,7 +2849,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 172.72) (xy 86.36 172.72)
+			(xy 78.74 168.91) (xy 80.01 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +2868,7 @@
 		(uuid "3c320ede-1d10-4038-891f-bdd025180c7b")
 	)
 	(label "HW_0ON"
-		(at 81.28 172.72 0)
+		(at 81.28 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2858,7 +2930,7 @@
 	)
 	(hierarchical_label "MCU_ON"
 		(shape input)
-		(at 69.85 160.02 180)
+		(at 69.85 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2902,7 +2974,7 @@
 	)
 	(hierarchical_label "HW_HEATER0_ON"
 		(shape input)
-		(at 63.5 172.72 180)
+		(at 63.5 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2937,7 +3009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D14"
+		(property "Footprint" "Argus-Misc:D14"
 			(at 63.5 128.27 0)
 			(effects
 				(font
@@ -3088,6 +3160,84 @@
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 80.01 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1393a700-8e29-4ab3-9fbb-b4188b24593a")
+		(property "Reference" "R77"
+			(at 84.836 177.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 85.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "131befce-4ec5-4731-9ec6-c14d6d343b72")
+		)
+		(pin "1"
+			(uuid "6458bd99-527c-47e1-a2f6-5b86f75fef2d")
+		)
+		(instances
+			(project "Avionics-Argus3-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -3388,6 +3538,151 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 80.01 161.29 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e7dce7a-f292-42d1-a34b-149124e2518b")
+		(property "Reference" "#GND07"
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 157.48 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e94226ec-f975-4153-99a2-cadba9ccbaee")
+		)
+		(instances
+			(project "Avionics-Argus3-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
+					(reference "#GND07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 80.01 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57dff9de-826e-45b1-9b32-b45ad8ee2b20")
+		(property "Reference" "R76"
+			(at 84.836 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 85.09 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99bfcc25-2fbf-4e3b-9759-10c0f5dc5cd0")
+		)
+		(pin "1"
+			(uuid "dc62b7ab-a460-450a-a228-996e7fa9edd7")
+		)
+		(instances
+			(project "Avionics-Argus3-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Si7141DP")
 		(at 170.18 81.28 270)
 		(mirror x)
@@ -3493,7 +3788,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "IRLML2803"
 			(at 79.756 185.166 90)
 			(effects
 				(font
@@ -3501,7 +3796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 71.12 179.07 0)
 			(effects
 				(font
@@ -3575,7 +3870,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 73.66 170.18 270)
+		(at 73.66 166.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3583,23 +3878,23 @@
 		(dnp no)
 		(uuid "617a2e95-7418-426a-86f1-e3832eb4fd63")
 		(property "Reference" "Q16"
-			(at 67.564 166.878 90)
+			(at 67.564 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 67.564 169.164 90)
+		(property "Value" "IRLML2803"
+			(at 67.564 165.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.2 175.26 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 76.2 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3903,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 60.96 170.18 0)
+			(at 60.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3912,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 73.66 170.18 0)
+			(at 73.66 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3921,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 56.515 170.18 0)
+			(at 56.515 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3930,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 54.61 170.18 0)
+			(at 54.61 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +3939,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 58.42 170.18 0)
+			(at 58.42 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,6 +4383,73 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
 					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 173.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df67727f-c97f-4f3b-85ea-d9fc43c7ae37")
+		(property "Reference" "#GND08"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 170.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25d9d9f8-015f-4229-92b1-339108ecedea")
+		)
+		(instances
+			(project "Avionics-Argus3-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
+					(reference "#GND08")
 					(unit 1)
 				)
 			)

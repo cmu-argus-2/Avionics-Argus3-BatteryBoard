@@ -449,7 +449,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "6x 18650 cells in 2S3P arrangement\nPanasonic NCR18650GA. 3450mAh. 6900mAh total\nSamsung 35E. 3500mAh = 6900mAh total\n7.2V nominal, 8.4V max"
+	(text "4x 18650 cells in 2S3P arrangement\nPanasonic NCR18650GA. 3450mAh. 6900mAh total\nSamsung 35E. 3500mAh = 6900mAh total\n7.2V nominal, 8.4V max"
 		(exclude_from_sim no)
 		(at 115.57 76.454 0)
 		(effects

@@ -1779,16 +1779,16 @@
 		(uuid "15a388f4-843f-4a03-aa88-90860ed579c5")
 	)
 	(junction
+		(at 196.85 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d6eb2cc-90f4-4cf7-8e69-006705547ee9")
+	)
+	(junction
 		(at 177.8 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dd50510-13c8-41c9-bfd7-0afe9028491a")
-	)
-	(junction
-		(at 196.85 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60403c76-ef3d-4c27-9b00-8d7b91759ac4")
 	)
 	(junction
 		(at 101.6 127)
@@ -1851,16 +1851,16 @@
 		(uuid "d1252ce5-fd37-4553-beeb-c30b53a0055a")
 	)
 	(junction
+		(at 196.85 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e90886e8-89b0-47cb-adc4-c631311a7970")
+	)
+	(junction
 		(at 57.15 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec4ea435-f01a-4952-8cb5-a14de1200da3")
-	)
-	(junction
-		(at 196.85 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa1108cf-bb8a-404f-a34f-a06ebde25ed5")
 	)
 	(junction
 		(at 132.08 96.52)
@@ -1871,6 +1871,16 @@
 	(no_connect
 		(at 83.82 93.98)
 		(uuid "443f8bf0-95cb-485b-94a8-7fbac99791b1")
+	)
+	(wire
+		(pts
+			(xy 196.85 104.14) (xy 204.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00026169-7c0e-459e-869d-612496f389bc")
 	)
 	(wire
 		(pts
@@ -2021,6 +2031,16 @@
 			(type default)
 		)
 		(uuid "16efc37b-dabc-45d0-a8de-7990e15922ca")
+	)
+	(wire
+		(pts
+			(xy 196.85 125.73) (xy 204.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17466bf4-6b0a-472f-b48f-d397c0cd5032")
 	)
 	(wire
 		(pts
@@ -2454,16 +2474,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 125.73) (xy 204.47 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d2b537f-68f6-4508-9819-d0c008cab5d5")
-	)
-	(wire
-		(pts
 			(xy 67.31 88.9) (xy 67.31 91.44)
 		)
 		(stroke
@@ -2794,16 +2804,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 104.14) (xy 204.47 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75ccf79-b37e-445d-b8b2-3c0a48b48e32")
-	)
-	(wire
-		(pts
 			(xy 96.52 76.2) (xy 96.52 73.66)
 		)
 		(stroke
@@ -3017,7 +3017,7 @@
 	)
 	(hierarchical_label "HW_HEATER0_ON"
 		(shape output)
-		(at 204.47 104.14 0)
+		(at 204.47 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3039,7 +3039,7 @@
 	)
 	(hierarchical_label "HW_HEATER1_ON"
 		(shape output)
-		(at 204.47 125.73 0)
+		(at 204.47 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3628,7 +3628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "116a5337-d288-4e5c-af55-514711ff4718")
-		(property "Reference" "R34"
+		(property "Reference" "R75"
 			(at 185.42 110.49 90)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 118.618 90)
 			(effects
 				(font
@@ -3680,7 +3680,7 @@
 		(instances
 			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae"
-					(reference "R34")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c0357b0-05b5-4b59-a27b-0f39e5348efd")
-		(property "Reference" "R22"
+		(property "Reference" "R72"
 			(at 171.45 95.25 90)
 			(effects
 				(font
@@ -4275,7 +4275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 103.378 90)
 			(effects
 				(font
@@ -4311,7 +4311,7 @@
 		(instances
 			(project ""
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae"
-					(reference "R22")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -4327,7 +4327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65923c2b-bded-40ed-a9a8-29b374ac8322")
-		(property "Reference" "R21"
+		(property "Reference" "R73"
 			(at 185.42 88.9 90)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 97.028 90)
 			(effects
 				(font
@@ -4379,7 +4379,7 @@
 		(instances
 			(project ""
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae"
-					(reference "R21")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -4769,7 +4769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a79c991-d168-40a0-87e2-492cc9fb90e3")
-		(property "Reference" "R23"
+		(property "Reference" "R74"
 			(at 171.45 116.84 90)
 			(effects
 				(font
@@ -4785,7 +4785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 124.968 90)
 			(effects
 				(font
@@ -4821,7 +4821,7 @@
 		(instances
 			(project "Avionics-Argus3-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae"
-					(reference "R23")
+					(reference "R74")
 					(unit 1)
 				)
 			)
