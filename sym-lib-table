@@ -6,4 +6,5 @@
   (lib (name "Argus-Passives")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/Argus-Passives.kicad_sym")(options "")(descr ""))
   (lib (name "SN74LVC32AD")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/SN74LVC32AD.kicad_sym")(options "")(descr ""))
   (lib (name "STM32U375CET6")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/STM32U375CET6.kicad_sym")(options "")(descr ""))
+  (lib (name "LM393WDT")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/LM393WDT.kicad_sym")(options "")(descr ""))
 )

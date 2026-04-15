@@ -2067,7 +2067,7 @@
 				(justify left)
 			)
 		)
-		(pin "CAN_L" bidirectional
+		(pin "CAN_N" bidirectional
 			(at 222.885 109.22 0)
 			(uuid "33ac359a-3978-4cda-9057-8aeb6aa8ed5a")
 			(effects
@@ -2087,7 +2087,7 @@
 				(justify left)
 			)
 		)
-		(pin "CAN_H" bidirectional
+		(pin "CAN_P" bidirectional
 			(at 222.885 105.41 0)
 			(uuid "be09b07f-1952-4793-8529-354eaf752586")
 			(effects
